@@ -9,7 +9,7 @@ This application provides capabilities to manage payment methods offered by Zoop
 ### Requirements
 
 The following is required for this application to run:
-* Java JDK 17
+* Java JDK 25
 
 ### How to
 
@@ -80,10 +80,10 @@ But this is NOT allowed:
 
 | Insertion order | Country code | Payment methods | Country default | Allowed?  |
 |-----------------|--------------|-----------------|-----------------|-----------|
-| 1               | DE           | PAYPAL          | No              | ❎ (No)    |
+| 1               | DE           | PAYPAL          | No              | ❌ (No)    |
 
 | Insertion order | Country code | Payment methods | Country default | Allowed? |
 |-----------------|--------------|-----------------|-----------------|----------|
 | 1               | DE           | PAYPAL          | Yes             | ✅ (Yes)  |
 | 2               | DE           | APPLE_PAY       | No              | ✅ (Yes)  |
-| 3               | DE           | VISA            | Yes             | ❎ (No)   |
+| 3               | DE           | VISA            | Yes             | ❌ (No)   |
