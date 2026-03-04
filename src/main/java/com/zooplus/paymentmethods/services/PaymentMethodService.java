@@ -2,11 +2,12 @@ package com.zooplus.paymentmethods.services;
 
 import com.zooplus.paymentmethods.controllers.PaymentMethodRequest;
 import com.zooplus.paymentmethods.controllers.PaymentMethodResponse;
-import jakarta.annotation.Resource;
+
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
+import jakarta.annotation.Resource;
 
 /**
  * Provides service for {@link PaymentMethod}.

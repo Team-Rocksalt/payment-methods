@@ -2,7 +2,7 @@ package com.zooplus.paymentmethods.controllers;
 
 import com.zooplus.paymentmethods.services.PaymentMethod;
 import com.zooplus.paymentmethods.services.PaymentMethodService;
-import jakarta.annotation.Resource;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import jakarta.annotation.Resource;
 
 /**
  * Controller for {@link PaymentMethod} resource.
