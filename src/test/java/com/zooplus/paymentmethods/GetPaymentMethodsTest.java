@@ -26,7 +26,6 @@ class GetPaymentMethodsTest {
     @BeforeEach
     void setup() {
         paymentMethodRepository.save(PaymentMethod.builder()
-                .id(1)
                 .name("PAYPAL")
                 .countryCode("FR")
                 .countryDefault(true)
